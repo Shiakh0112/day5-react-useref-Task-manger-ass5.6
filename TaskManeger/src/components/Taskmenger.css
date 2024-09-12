@@ -1,0 +1,99 @@
+/* styles/useref.css */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+.todo-container {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  width: 40%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container p {
+  margin: 5px 0;
+}
+
+.todo-container button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.todo-container button:hover {
+  background-color: #27ae60;
+}
+
+.todo-container button:last-of-type {
+  background-color: #e74c3c;
+}
+
+.todo-container button:last-of-type:hover {
+  background-color: #c0392b;
+}
+
+h3 {
+  color: #7f8c8d;
+}
+
+label {
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-left: 10px;
+}
